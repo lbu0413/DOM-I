@@ -137,12 +137,16 @@ contactP3.textContent = siteContent["contact"]["email"];
 const footerText = document.querySelector('footer p');
 footerText.textContent = siteContent["footer"]["copyright"];
 
-link.style.color = "green";
-link2.style.color = "green";
-link3.style.color = "green";
-link4.style.color = "green";
-link5.style.color = "green";
-link6.style.color = "green";
+// link.style.color = "green";
+// link2.style.color = "green";
+// link3.style.color = "green";
+// link4.style.color = "green";
+// link5.style.color = "green";
+// link6.style.color = "green";
+const links = document.querySelectorAll('nav a');
+links.forEach((link) => {
+  link.style.color = "green";
+})
 
 navBar = document.querySelector('nav');
 
