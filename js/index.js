@@ -154,4 +154,5 @@ navBar.appendChild(link7);
 const home = document.createElement('a');
 home.textContent = 'Home';
 home.style.color = "black";
+home.style.fontWeight = 'bold';
 navBar.prepend(home);
